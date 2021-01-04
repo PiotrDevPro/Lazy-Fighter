@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2e5269517f28664db5ccd78cbd208b1, type: 3}
+  m_Name: Mike
+  m_EditorClassIdentifier: 
+  version: 0
+  profilePictureSmall: {fileID: 2800000, guid: c6da65867bbd760469d6eea1398c79ff, type: 3}
+  profilePictureBig: {fileID: 2800000, guid: 99c6b14538768d74d8330dfc829b241e, type: 3}
+  characterName: Mike
+  gender: 1
+  characterDescription: 'Animation Type: Mecanim
+
+    Fight Style: Shotokan
+
+    To
+    enable throw, open the Hit Box Setup and set the last hitbox colision type to
+    "throw".
+
+    Throw moves are located under the Moves folder (ThrowReactionCustom)'
+  selectionAnimation: {fileID: 0}
+  selectionSound: {fileID: 0}
+  deathSound: {fileID: 8300000, guid: b671558967ea26742bffcc63ea2ac5d0, type: 3}
+  height: 5.8
+  age: 32
+  bloodType: Unknown
+  lifePoints: 800
+  maxGaugePoints: 400
+  characterPrefabStorage: 1
+  characterPrefab: {fileID: 0}
+  prefabResourcePath: Characters\Mike
+  alternativeCostumes: []
+  initialPosition:
+    x:
+      _serializedValue: 0
+    y:
+      _serializedValue: 0
+    z:
+      _serializedValue: 0
+  initialRotation:
+    x:
+      _serializedValue: 0
+    y:
+      _serializedValue: 3037000704
+    z:
+      _serializedValue: 0
+    w:
+      _serializedValue: 3037000704
+  physics:
+    moveForwardSpeed: 7.5
+    _moveForwardSpeed:
+      _serializedValue: 90194313216
+    moveBackSpeed: 6
+    _moveBackSpeed:
+      _serializedValue: 81604378624
+    highMovingFriction: 1
+    friction: 30
+    _friction:
+      _serializedValue: 128849018880
+    canCrouch: 1
+    crouchDelay: 2
+    standingDelay: 2
+    canJump: 1
+    pressureSensitiveJump: 0
+    overrideCrouch: 0
+    jumpForce: 40
+    _jumpForce:
+      _serializedValue: 154618822656
+    minJumpForce: 30
+    _minJumpForce:
+      _serializedValue: 128849018880
+    minJumpDelay: 4
+    jumpDistance: 7
+    _jumpDistance:
+      _serializedValue: 30064771072
+    cumulativeForce: 1
+    multiJumps: 1
+    weight: 200
+    _weight:
+      _serializedValue: 1717986918400
+    jumpDelay: 4
+    landingDelay: 7
+    groundCollisionMass: 2
+    _groundCollisionMass:
+      _serializedValue: 8589934592
+  headLook:
+    enabled: 0
+    segments: []
+    nonAffectedJoints: []
+    target: 1
+    effect: 1
+    overrideAnimation: 1
+    disableOnHit: 1
+  customControls:
+    enabled: 0
+    overrideInputs: 0
+    walkForward: 0
+    walkBack: 1
+    crouch: 3
+    jump: 2
+    button1: 4
+    button2: 5
+    button3: 6
+    button4: 7
+    button5: 8
+    button6: 9
+    button7: 10
+    button8: 11
+    button9: 12
+    button10: 13
+    button11: 14
+    button12: 15
+    overrideControlFreak: 0
+    controlFreak2Prefab: {fileID: 0}
+  executionTiming: 0.3
+  _executionTiming:
+    _serializedValue: 1288490240
+  possibleAirMoves: 1
+  blendingTime: 0.1
+  _blendingTime:
+    _serializedValue: 429496736
+  animationType: 0
+  avatar: {fileID: 0}
+  applyRootMotion: 0
+  animationFlow: 0
+  useAnimationMaps: 1
+  stanceResourcePath:
+  - MoveSets\Mike_Stance_1
+  moves: []
+  aiInstructionsSet:
+  - aiInfo: {fileID: 11400000, guid: 50d4630698994bd45b6f19bf649b3a90, type: 2}
+    behavior: 4
+  - aiInfo: {fileID: 11400000, guid: 0cbb4bf9fc37e2540a4b1900a715cbb1, type: 2}
+    behavior: 3
+  - aiInfo: {fileID: 11400000, guid: 17d8c9859bca4a548a7621c06d6cfebf, type: 2}
+    behavior: 2

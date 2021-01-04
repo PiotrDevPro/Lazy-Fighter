@@ -1,0 +1,7 @@
+.vs/
+*.meta
+*.sln
+*.suo
+Temp/
+Temp/UnityLockfile
+Library/
