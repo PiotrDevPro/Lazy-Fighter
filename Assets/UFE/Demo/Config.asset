@@ -42,21 +42,22 @@ MonoBehaviour:
   p1CharStorage: {fileID: 11400000, guid: 5d6dc227d62e62a40af291dbbd4c5276, type: 2}
   p2CharStorage: {fileID: 11400000, guid: 573f29652f969dd429ee24d097b56bc0, type: 2}
   selectedStage:
-    stageName: 
+    stageName: Dungeon#1
     stageResourcePath: 
     musicResourcePath: 
-    screenshot: {fileID: 0}
-    prefab: {fileID: 0}
-    music: {fileID: 0}
+    screenshot: {fileID: 2800000, guid: 9ac97dde6fbe4d542a32d695da84129b, type: 3}
+    prefab: {fileID: 7240622757100443728, guid: a4b4c6fe0e2feda469b2acc7c6dcc667,
+      type: 3}
+    music: {fileID: 8300000, guid: 78a0035e01d5f0346a8eb0fc22bb4fa2, type: 3}
     groundFriction: 100
     _groundFriction:
       _serializedValue: 429496729600
     leftBoundary: -38
     _leftBoundary:
-      _serializedValue: -163208757248
+      _serializedValue: -128849018880
     rightBoundary: 38
     _rightBoundary:
-      _serializedValue: 163208757248
+      _serializedValue: 137438953472
     _groundHeight:
       _serializedValue: 0
   stagePrefabStorage: 0
@@ -222,7 +223,7 @@ MonoBehaviour:
   cameraOptions:
     initialDistance: {x: 0, y: 8, z: -32}
     initialRotation: {x: 7, y: 0, z: 0}
-    initialFieldOfView: 27
+    initialFieldOfView: 22
     followJumpingCharacter: 1
     movementSpeed: 12
     minZoom: 30
@@ -1050,9 +1051,9 @@ MonoBehaviour:
       _serializedValue: 0
   characters:
   - {fileID: 11400000, guid: 573f29652f969dd429ee24d097b56bc0, type: 2}
-  - {fileID: 11400000, guid: f0ed0d0ea0c86e24e8af99019d695928, type: 2}
   - {fileID: 11400000, guid: 54057043117984643925ed339c232c0d, type: 2}
   - {fileID: 11400000, guid: 5d6dc227d62e62a40af291dbbd4c5276, type: 2}
+  - {fileID: 11400000, guid: fe09108d1a8633f49aeb0d0e76d2b3f8, type: 2}
   debugOptions:
     startGameImmediately: 0
     skipLoadingScreen: 1
@@ -1274,7 +1275,7 @@ MonoBehaviour:
     onlySendInputChanges: 1
     inputMessageFrequency: 0
     synchronizationMessageFrequency: 0
-  music: 0
+  music: 1
   musicVolume: 1
   soundfx: 1
   soundfxVolume: 1

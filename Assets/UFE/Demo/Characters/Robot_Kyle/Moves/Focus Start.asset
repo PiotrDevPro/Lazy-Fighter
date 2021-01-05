@@ -4,7 +4,8 @@
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -2145,9 +2146,9 @@ MonoBehaviour:
     onPressExecution: 1
     buttonSequence: 
     buttonExecution: 09000000
-    editorToggle: 0
+    editorToggle: 1
     buttonSequenceToggle: 0
-    buttonExecutionToggle: 0
+    buttonExecutionToggle: 1
   altInputs:
     chargeMove: 0
     _chargeTiming:
@@ -2320,7 +2321,14 @@ MonoBehaviour:
     counterMoveToggle: 0
   particleEffects: []
   appliedForces: []
-  slowMoEffects: []
+  slowMoEffects:
+  - castingFrame: 22
+    duration: 0
+    _duration:
+      _serializedValue: 4294967296
+    percentage: 0
+    _percentage:
+      _serializedValue: 0
   bodyPartVisibilityChanges: []
   opponentOverride: []
   soundEffects:

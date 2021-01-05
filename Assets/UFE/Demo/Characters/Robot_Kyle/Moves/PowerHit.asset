@@ -4,7 +4,8 @@
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -15684,7 +15685,7 @@ MonoBehaviour:
     _serializedValue: 4294967296
   wrapMode: 0
   characterPrefab: {fileID: 1272366937168992, guid: 01b0a963f13679544a22d6e63d5256c6,
-    type: 2}
+    type: 3}
   moveName: Power Hit
   description: Power Hit
   fps: 60
@@ -15709,10 +15710,10 @@ MonoBehaviour:
     _serializedValue: 0
   gaugeRequired: 0
   _gaugeRequired:
-    _serializedValue: 429496729600
+    _serializedValue: 261993005056
   gaugeUsage: 400
   _gaugeUsage:
-    _serializedValue: 429496729600
+    _serializedValue: 261993005056
   gaugeGainOnMiss: 0
   _gaugeGainOnMiss:
     _serializedValue: 0
@@ -15740,7 +15741,7 @@ MonoBehaviour:
   totalFrames: 108
   startUpFrames: 21
   activeFrames: 8
-  recoveryFrames: 78
+  recoveryFrames: 79
   applyRootMotion: 0
   forceGrounded: 0
   rootMotionNode: 0
@@ -15774,11 +15775,11 @@ MonoBehaviour:
     onReleaseExecution: 0
     requireButtonPress: 1
     onPressExecution: 1
-    buttonSequence: 0300000000000000
-    buttonExecution: 0400000005000000
-    editorToggle: 0
-    buttonSequenceToggle: 0
-    buttonExecutionToggle: 0
+    buttonSequence: 00000000
+    buttonExecution: 05000000
+    editorToggle: 1
+    buttonSequenceToggle: 1
+    buttonExecutionToggle: 1
   altInputs:
     chargeMove: 0
     _chargeTiming:
@@ -16098,7 +16099,7 @@ MonoBehaviour:
           _serializedValue: 0
         z:
           _serializedValue: 0
-    damageOptionsToggle: 0
+    damageOptionsToggle: 1
     hitStunOptionsToggle: 0
     forceOptionsToggle: 0
     opponentForceToggle: 0
