@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: gamedevcorp
-  productName: Lazy Fight
+  productName: Lazy Fighter
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -168,7 +168,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.gamedevcorp.lazyfight
+    Android: com.gamedevcorp.lazyfighter
     Standalone: com.MindStudios.UFE
   buildNumber: {}
   AndroidBundleVersionCode: 1
@@ -268,7 +268,7 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: 6c5aeee4b67ecb6429916c2cbbfaab50, type: 3}
+      m_Icon: {fileID: 2800000, guid: a377abdc38db38b46867a9f2aff27b78, type: 3}
       m_Width: 128
       m_Height: 128
       m_Kind: 0
