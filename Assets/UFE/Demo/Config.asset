@@ -42,11 +42,11 @@ MonoBehaviour:
   p1CharStorage: {fileID: 11400000, guid: 5d6dc227d62e62a40af291dbbd4c5276, type: 2}
   p2CharStorage: {fileID: 11400000, guid: 573f29652f969dd429ee24d097b56bc0, type: 2}
   selectedStage:
-    stageName: Dungeon#1
+    stageName: Alaska
     stageResourcePath: 
     musicResourcePath: 
-    screenshot: {fileID: 2800000, guid: 9ac97dde6fbe4d542a32d695da84129b, type: 3}
-    prefab: {fileID: 7240622757100443728, guid: a4b4c6fe0e2feda469b2acc7c6dcc667,
+    screenshot: {fileID: 2800000, guid: 5ce416c5ea3e2b141acdd0d3fd087b6e, type: 3}
+    prefab: {fileID: 3913730778037703168, guid: 3e1d6f261d10db34daf06bbe1ccfa971,
       type: 3}
     music: {fileID: 8300000, guid: 78a0035e01d5f0346a8eb0fc22bb4fa2, type: 3}
     groundFriction: 100
@@ -57,7 +57,7 @@ MonoBehaviour:
       _serializedValue: -128849018880
     rightBoundary: 38
     _rightBoundary:
-      _serializedValue: 137438953472
+      _serializedValue: 107374182400
     _groundHeight:
       _serializedValue: 0
   stagePrefabStorage: 0
@@ -778,7 +778,7 @@ MonoBehaviour:
     activeIcon: {fileID: 2800000, guid: 0f1eb58df8917b74f804b8cb97615fd5, type: 3}
   - inputType: 1
     inputButtonName: P1KeyboardVertical
-    engineRelatedButton: 3
+    engineRelatedButton: 2
     joystickAxisName: P1JoystickVertical
     cInputPositiveKeyName: P1Up
     cInputPositiveDefaultKey: W
@@ -1049,11 +1049,29 @@ MonoBehaviour:
       _serializedValue: 64424509440
     _groundHeight:
       _serializedValue: 0
+  - stageName: Alaska
+    stageResourcePath: 
+    musicResourcePath: 
+    screenshot: {fileID: 2800000, guid: 5ce416c5ea3e2b141acdd0d3fd087b6e, type: 3}
+    prefab: {fileID: 3913730778037703168, guid: 3e1d6f261d10db34daf06bbe1ccfa971,
+      type: 3}
+    music: {fileID: 8300000, guid: 78a0035e01d5f0346a8eb0fc22bb4fa2, type: 3}
+    groundFriction: 100
+    _groundFriction:
+      _serializedValue: 429496729600
+    leftBoundary: -38
+    _leftBoundary:
+      _serializedValue: -128849018880
+    rightBoundary: 38
+    _rightBoundary:
+      _serializedValue: 107374182400
+    _groundHeight:
+      _serializedValue: 0
   characters:
   - {fileID: 11400000, guid: 573f29652f969dd429ee24d097b56bc0, type: 2}
-  - {fileID: 11400000, guid: 54057043117984643925ed339c232c0d, type: 2}
   - {fileID: 11400000, guid: 5d6dc227d62e62a40af291dbbd4c5276, type: 2}
   - {fileID: 11400000, guid: fe09108d1a8633f49aeb0d0e76d2b3f8, type: 2}
+  - {fileID: 11400000, guid: b587255f636575d49afea77542ecc165, type: 2}
   debugOptions:
     startGameImmediately: 0
     skipLoadingScreen: 1
@@ -1098,7 +1116,7 @@ MonoBehaviour:
       aiWeightList: 0
   trainingModeOptions:
     inputInfo: 0
-    freezeTime: 1
+    freezeTime: 0
     p1StartingLife: 100
     p2StartingLife: 100
     p1StartingGauge: 0
@@ -1276,6 +1294,6 @@ MonoBehaviour:
     inputMessageFrequency: 0
     synchronizationMessageFrequency: 0
   music: 1
-  musicVolume: 1
+  musicVolume: 0.47345617
   soundfx: 1
   soundfxVolume: 1

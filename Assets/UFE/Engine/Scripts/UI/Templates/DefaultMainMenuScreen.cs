@@ -37,7 +37,8 @@ public class DefaultMainMenuScreen : MainMenuScreen{
 		);
 	}
 
-	public override void OnShow (){
+
+    public override void OnShow (){
 		base.OnShow ();
 		this.HighlightOption(this.FindFirstSelectable());
 

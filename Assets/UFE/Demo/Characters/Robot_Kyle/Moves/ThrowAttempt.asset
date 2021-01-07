@@ -4,7 +4,8 @@
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -3954,7 +3955,7 @@ MonoBehaviour:
   hits:
   - activeFramesBegin: 8
     activeFramesEnds: 11
-    hitConfirmType: 1
+    hitConfirmType: 0
     throwMove: {fileID: 11400000, guid: 74687a7937f1d714094d7b5f00e31ee2, type: 2}
     techMove: {fileID: 11400000, guid: 94a4d4b8ab5fe574e8e294b5159b86ee, type: 2}
     techable: 1
@@ -3966,8 +3967,8 @@ MonoBehaviour:
     spaceBetweenHits: 0
     groundHit: 1
     crouchingHit: 1
-    airHit: 0
-    stunHit: 0
+    airHit: 1
+    stunHit: 1
     opponentConditions:
       basicMoveLimitation: 
       possibleMoveStates: []
@@ -4056,7 +4057,7 @@ MonoBehaviour:
     damageType: 1
     damageOnHit: 120
     _damageOnHit:
-      _serializedValue: 515396075520
+      _serializedValue: 77309411328
     damageOnBlock: 0
     _damageOnBlock:
       _serializedValue: 0
@@ -4166,7 +4167,7 @@ MonoBehaviour:
           _serializedValue: 0
         z:
           _serializedValue: 0
-    damageOptionsToggle: 0
+    damageOptionsToggle: 1
     hitStunOptionsToggle: 0
     forceOptionsToggle: 0
     opponentForceToggle: 0
