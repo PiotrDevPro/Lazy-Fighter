@@ -1,7 +1,9 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using System.Collections.Generic;
 
-public class DefaultPauseScreen : PauseScreen{
+public class DefaultPauseScreen : PauseScreen
+{
 	#region public instance fields
 	public UFEScreen backToMenuConfirmationDialog;
 	public UFEScreen[] screens;
@@ -38,6 +40,11 @@ public class DefaultPauseScreen : PauseScreen{
 		}
 	}
 
+	public void GoToMainMenu()
+    {
+		VersusModeAfterBattleScreen.manage.GoToMainMenu();
+	}
+
 	public virtual void GoToScreen(int index){
 		for (int i = 0; i < this.screens.Length; ++i){
 			if (i != index){
@@ -51,6 +58,7 @@ public class DefaultPauseScreen : PauseScreen{
 	}
 
 	public virtual void ShowBackToMenuConfirmationDialog(){
+		
 		if (this.backToMenuConfirmationDialog != null){
 			for (int i = 0; i < this.screens.Length; ++i){
 				if (this.screens[i] != null){
@@ -58,14 +66,19 @@ public class DefaultPauseScreen : PauseScreen{
 					
 					if (canvasGroup != null){
 						canvasGroup.interactable = false;
-					}else{
+						
+					}
+					else{
+						
 						this.HideScreen(this.screens[i]);
+						
 					}
 				}
 			}
 
 			this.ShowScreen(this.backToMenuConfirmationDialog);
 			this.confirmationDialogVisible = true;
+			//SceneManager.LoadScene(Application.loadedLevel);
 		}
 	}
 	#endregion
@@ -86,7 +99,7 @@ public class DefaultPauseScreen : PauseScreen{
 					player1CurrentInputs,
 					player2PreviousInputs,
 					player2CurrentInputs
-				);
+				) ;
 			}
 		}else{
 			if(this.currentScreen >= 0 && this.currentScreen < this.screens.Length && this.screens[this.currentScreen] != null){

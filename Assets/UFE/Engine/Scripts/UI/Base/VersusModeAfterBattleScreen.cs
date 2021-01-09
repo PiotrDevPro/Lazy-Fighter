@@ -3,8 +3,15 @@ using System;
 using System.Reflection;
 
 public class VersusModeAfterBattleScreen : UFEScreen {
-	#region protected enum definitions
-	protected enum Option{
+	public static VersusModeAfterBattleScreen manage;
+
+    private void Awake()
+    {
+		manage = this;
+
+	}
+    #region protected enum definitions
+    protected enum Option{
 		RepeatBattle = 0,
 		CharacterSelectionScreen = 1,
 		StageSelectionScreen = 2,

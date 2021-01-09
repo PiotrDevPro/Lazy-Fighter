@@ -72,7 +72,7 @@ LightmapSettings:
     m_FinalGatherRayCount: 1024
     m_ReflectionCompression: 2
     m_MixedBakeMode: 1
-    m_BakeBackend: 0
+    m_BakeBackend: 1
     m_PVRSampling: 1
     m_PVRDirectSampleCount: 32
     m_PVRSampleCount: 500
@@ -379,9 +379,9 @@ MonoBehaviour:
   colorMaterial: {fileID: 2100000, guid: 77186bd7b34e247499b027bcaa655dc3, type: 2}
   shader: {fileID: 4800000, guid: 882e54c96926fba41a8f998a4d293b44, type: 3}
   Exposure: 0.3
-  Contrast: 1.28
+  Contrast: 1.29
   Saturation: 0
-  Gamma: 0.99
+  Gamma: 0.902
   vignetteIntensity: 0
   R: 0
   G: 0

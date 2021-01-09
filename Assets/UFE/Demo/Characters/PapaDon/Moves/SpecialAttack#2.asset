@@ -68,7 +68,7 @@ MonoBehaviour:
     _serializedValue: 4294967296
   opGaugeGainOnParry: 0
   _opGaugeGainOnParry:
-    _serializedValue: 21474836480
+    _serializedValue: 0
   opGaugeGainOnHit: 0
   _opGaugeGainOnHit:
     _serializedValue: 4294967296
@@ -211,8 +211,8 @@ MonoBehaviour:
     camAnimationSpeed: 1
     blendSpeed: 100
     gameObjectPosition: {x: 0, y: 0, z: 0}
-    position: {x: 0, y: 4, z: -55}
-    rotation: {x: 0, y: 0, z: 0}
+    position: {x: 0, y: 5, z: -65}
+    rotation: {x: 0, y: 2, z: 0}
     castingFrame: 0
     duration: 0
     _duration:
@@ -1034,7 +1034,7 @@ MonoBehaviour:
     damageType: 1
     damageOnHit: 0
     _damageOnHit:
-      _serializedValue: 322122547200
+      _serializedValue: 343597383680
     damageOnBlock: 0
     _damageOnBlock:
       _serializedValue: 0
@@ -1049,7 +1049,7 @@ MonoBehaviour:
       x:
         _serializedValue: 0
       y:
-        _serializedValue: 171798691840
+        _serializedValue: 214748364800
       z:
         _serializedValue: 0
     pushForceAir: {x: 0, y: 0}
@@ -1499,7 +1499,7 @@ MonoBehaviour:
       followYBounds: 0
       radius: 0.5
       _radius:
-        _serializedValue: 2147483648
+        _serializedValue: 12884901888
       offSet: {x: 0, y: 0}
       _offSet:
         x:
