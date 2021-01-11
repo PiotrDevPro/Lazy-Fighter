@@ -1259,7 +1259,7 @@ MonoBehaviour:
     allowedDesynchronizations: 0
     port: 1337
     floatDesynchronizationThreshold: 0.001
-    networkService: 0
+    networkService: 1
     authKey: 
     lobbies:
     - lobbyName: 
@@ -1272,7 +1272,7 @@ MonoBehaviour:
       matchMakingUserData: []
       winnerUserData: []
       loserUserData: []
-    photonHostingService: 1
+    photonHostingService: 0
     playFabTitleId: 795
     photonApplicationId: 809-9d76dc2df375c7-b809-9d76dc2df375
     lanDiscoveryPort: 1338

@@ -217,12 +217,16 @@
     <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\UI-Helpers\LeftRightMenu.cs" />
     <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Utils\CFGizmos.cs" />
     <Compile Include="Assets\Plugins\Control-Freak-2\Scripts\Utils\CFUtils.cs" />
+    <Compile Include="Assets\Plugins\WebSocket\SocketWebTcp.cs" />
+    <Compile Include="Assets\Plugins\WebSocket\WebSocket.cs" />
     <None Include="Assets\Plugins\Control-Freak-2\Control-Freak-2-ReadMe.txt" />
     <None Include="Assets\Plugins\Control-Freak-2\Shaders\Sprites-Additive.shader" />
     <None Include="Assets\Plugins\Control-Freak-2\Samples\Demo-CFR\CFR-Demo-Installation-Guide.txt" />
     <None Include="Assets\Plugins\Control-Freak-2\Shaders\Sprites-HardLight.shader" />
+    <None Include="Assets\Plugins\changes-library.txt" />
     <None Include="Assets\Plugins\Control-Freak-2\Shaders\Sprites-SoftLight.shader" />
     <None Include="Assets\Plugins\Control-Freak-2\Samples\Shared-Assets\Fonts\FH-RedFive WTT\license.txt" />
+    <None Include="Assets\Plugins\Photon3Unity3D.xml" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/2019.4.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -414,6 +418,12 @@
     </Reference>
     <Reference Include="UnityEngine.StandardEvents">
       <HintPath>C:/Users/vanya/unity_projects/Lazy_Fight/Library/PackageCache/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Photon3Unity3D">
+      <HintPath>C:/Users/vanya/unity_projects/Lazy_Fight/Assets/Plugins/Photon3Unity3D.dll</HintPath>
+    </Reference>
+    <Reference Include="websocket-sharp">
+      <HintPath>C:/Users/vanya/unity_projects/Lazy_Fight/Assets/Plugins/WebSocket/websocket-sharp.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:/Program Files/Unity/2019.4.11f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
