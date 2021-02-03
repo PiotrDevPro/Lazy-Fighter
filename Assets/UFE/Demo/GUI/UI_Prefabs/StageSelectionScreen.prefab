@@ -1065,6 +1065,7 @@ GameObject:
   - component: {fileID: 22400016}
   - component: {fileID: 22200016}
   - component: {fileID: 11400028}
+  - component: {fileID: 1087637180867371806}
   - component: {fileID: 3692259137258456826}
   - component: {fileID: 7890202248948715863}
   m_Layer: 5
@@ -1114,7 +1115,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.8301887, g: 0.27955478, b: 0.105731584, a: 1}
+  m_Color: {r: 0.80822206, g: 0.8584906, b: 0.24701849, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -1134,6 +1135,26 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: TRAINING ROOM
+--- !u!114 &1087637180867371806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79dd231f54e754616a693fce67919ee1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GradientType: 0
+  Offset: 0
+  StartColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  EndColor:
+    serializedVersion: 2
+    rgba: 4278248928
 --- !u!114 &3692259137258456826
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1146,7 +1167,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_EffectColor: {r: 1, g: 1, b: 1, a: 0.98039216}
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.98039216}
   m_EffectDistance: {x: 1, y: -1}
   m_UseGraphicAlpha: 1
 --- !u!114 &7890202248948715863
@@ -1161,7 +1182,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
+  m_EffectColor: {r: 1, g: 1, b: 1, a: 0.6313726}
   m_EffectDistance: {x: 1, y: -1}
   m_UseGraphicAlpha: 1
 --- !u!1 &100030
@@ -1621,12 +1642,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 677b62b82541ba0449b274f0122566b1, type: 3}
---- !u!224 &9015993792064014707 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 367263041298625682, guid: 677b62b82541ba0449b274f0122566b1,
-    type: 3}
-  m_PrefabInstance: {fileID: 8649155797997174241}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &2831418493464087743 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6867076020169060702, guid: 677b62b82541ba0449b274f0122566b1,
@@ -1639,6 +1654,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!224 &9015993792064014707 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 367263041298625682, guid: 677b62b82541ba0449b274f0122566b1,
+    type: 3}
+  m_PrefabInstance: {fileID: 8649155797997174241}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8899094008422298527
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1758,6 +1779,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 029b543d722d8224fa1bb2c00def298e, type: 3}
+--- !u!224 &1655781048065144966 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 7891831358277700377, guid: 029b543d722d8224fa1bb2c00def298e,
+    type: 3}
+  m_PrefabInstance: {fileID: 8899094008422298527}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1290788819658012697 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7680365033935833990, guid: 029b543d722d8224fa1bb2c00def298e,
@@ -1770,9 +1797,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!224 &1655781048065144966 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 7891831358277700377, guid: 029b543d722d8224fa1bb2c00def298e,
-    type: 3}
-  m_PrefabInstance: {fileID: 8899094008422298527}
-  m_PrefabAsset: {fileID: 0}

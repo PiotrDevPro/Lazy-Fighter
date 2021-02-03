@@ -23,7 +23,7 @@ MonoBehaviour:
   deathSound: {fileID: 8300000, guid: 59d283572ffee7c41b2a31e47c3b32be, type: 3}
   height: 175
   age: 29
-  bloodType: Unknown
+  bloodType: O+
   lifePoints: 1000
   maxGaugePoints: 100
   characterPrefabStorage: 0

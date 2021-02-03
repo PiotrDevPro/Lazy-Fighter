@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2e5269517f28664db5ccd78cbd208b1, type: 3}
+  m_Name: Zombie
+  m_EditorClassIdentifier: 
+  version: 0
+  profilePictureSmall: {fileID: 2800000, guid: 8e7d435b8647dd240b4f860bba689c3b, type: 3}
+  profilePictureBig: {fileID: 2800000, guid: 8e7d435b8647dd240b4f860bba689c3b, type: 3}
+  characterName: John Zombiez
+  gender: 1
+  characterDescription: 
+  selectionAnimation: {fileID: 0}
+  selectionSound: {fileID: 8300000, guid: 27b98a8c68f991b408c5c6afff25358c, type: 3}
+  deathSound: {fileID: 8300000, guid: d0dd5a8e1fcf88c4c990c0c54c58a2ea, type: 3}
+  height: 177
+  age: 36
+  bloodType: Unknown
+  lifePoints: 1000
+  maxGaugePoints: 100
+  characterPrefabStorage: 0
+  characterPrefab: {fileID: 3210684826259657245, guid: 36a2b560049ff3c47a1e6c1ba0f82548,
+    type: 3}
+  prefabResourcePath: 
+  alternativeCostumes: []
+  initialPosition:
+    x:
+      _serializedValue: 9616811
+    y:
+      _serializedValue: 0
+    z:
+      _serializedValue: -1219609216
+  initialRotation:
+    x:
+      _serializedValue: 0
+    y:
+      _serializedValue: 3037000704
+    z:
+      _serializedValue: 0
+    w:
+      _serializedValue: 3037000704
+  physics:
+    moveForwardSpeed: 4
+    _moveForwardSpeed:
+      _serializedValue: 73014444032
+    moveBackSpeed: 3.5
+    _moveBackSpeed:
+      _serializedValue: 64424509440
+    highMovingFriction: 1
+    friction: 30
+    _friction:
+      _serializedValue: 128849018880
+    canCrouch: 1
+    crouchDelay: 2
+    standingDelay: 2
+    canJump: 1
+    pressureSensitiveJump: 0
+    overrideCrouch: 0
+    jumpForce: 40
+    _jumpForce:
+      _serializedValue: 171798691840
+    minJumpForce: 30
+    _minJumpForce:
+      _serializedValue: 128849018880
+    minJumpDelay: 4
+    jumpDistance: 8
+    _jumpDistance:
+      _serializedValue: 34359738368
+    cumulativeForce: 1
+    multiJumps: 1
+    weight: 175
+    _weight:
+      _serializedValue: 1717986918400
+    jumpDelay: 8
+    landingDelay: 7
+    groundCollisionMass: 2
+    _groundCollisionMass:
+      _serializedValue: 8589934592
+  headLook:
+    enabled: 0
+    segments: []
+    nonAffectedJoints: []
+    target: 1
+    effect: 1
+    overrideAnimation: 1
+    disableOnHit: 1
+  customControls:
+    enabled: 0
+    overrideInputs: 0
+    walkForward: 0
+    walkBack: 1
+    crouch: 3
+    jump: 2
+    button1: 4
+    button2: 5
+    button3: 6
+    button4: 7
+    button5: 8
+    button6: 9
+    button7: 10
+    button8: 11
+    button9: 12
+    button10: 13
+    button11: 14
+    button12: 15
+    overrideControlFreak: 0
+    controlFreak2Prefab: {fileID: 0}
+  executionTiming: 0.3
+  _executionTiming:
+    _serializedValue: 1288490240
+  possibleAirMoves: 1
+  blendingTime: 0.1
+  _blendingTime:
+    _serializedValue: 429496736
+  animationType: 1
+  avatar: {fileID: 9000000, guid: 56baa8d6abdd0f844aa9101ea67841c7, type: 3}
+  applyRootMotion: 0
+  animationFlow: 0
+  useAnimationMaps: 0
+  stanceResourcePath:
+  - MoveSets\ThaZombie
+  moves: []
+  aiInstructionsSet:
+  - aiInfo: {fileID: 11400000, guid: 388fce0a954ca8544a84bdd1c4b66fba, type: 2}
+    behavior: 3
+  - aiInfo: {fileID: 11400000, guid: 68a028838c8be5947880fd975acc4ca7, type: 2}
+    behavior: 2
+  - aiInfo: {fileID: 11400000, guid: 381a98fe3348ea640801d8072511a960, type: 2}
+    behavior: 4

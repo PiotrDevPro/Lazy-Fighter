@@ -4,7 +4,8 @@
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -4818,7 +4819,7 @@ MonoBehaviour:
   _animationSpeed:
     _serializedValue: 4294967296
   wrapMode: 0
-  characterPrefab: {fileID: 100104, guid: 00742ea973dc1914b9364529ba316ee2, type: 2}
+  characterPrefab: {fileID: 100104, guid: 00742ea973dc1914b9364529ba316ee2, type: 3}
   moveName: Heavy Punch
   description: Heavy Punch
   fps: 60
@@ -4831,7 +4832,7 @@ MonoBehaviour:
   invertRotationRight: 0
   autoCorrectRotation: 0
   frameWindowRotation: 0
-  gaugeToggle: 0
+  gaugeToggle: 1
   startDrainingGauge: 0
   inhibitGainWhileDraining: 0
   stopDrainingGauge: 0
@@ -4852,10 +4853,10 @@ MonoBehaviour:
     _serializedValue: 0
   gaugeGainOnHit: 60
   _gaugeGainOnHit:
-    _serializedValue: 12884901888
+    _serializedValue: 4294967296
   gaugeGainOnBlock: 66
   _gaugeGainOnBlock:
-    _serializedValue: 12884901888
+    _serializedValue: 4294967296
   opGaugeGainOnBlock: 0
   _opGaugeGainOnBlock:
     _serializedValue: 0
@@ -5024,6 +5025,8 @@ MonoBehaviour:
       shakeDensity: 0.8
       _shakeDensity:
         _serializedValue: 3435973888
+      _shakeCameraDensity:
+        _serializedValue: 3435973836
       editorToggle: 0
     overrideHitEffectsBlock: 0
     hitEffectsBlock:
@@ -5046,6 +5049,8 @@ MonoBehaviour:
       shakeCameraOnHit: 1
       shakeDensity: 0.8
       _shakeDensity:
+        _serializedValue: 3435973836
+      _shakeCameraDensity:
         _serializedValue: 3435973836
       editorToggle: 0
     overrideEffectSpawnPoint: 0
@@ -5484,6 +5489,8 @@ MonoBehaviour:
       shakeDensity: 0.8
       _shakeDensity:
         _serializedValue: 3435973888
+      _shakeCameraDensity:
+        _serializedValue: 3435973836
       editorToggle: 0
     hitAbsorption: 0
     damageAbsorption: 0

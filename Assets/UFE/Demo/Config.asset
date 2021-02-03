@@ -36,28 +36,28 @@ MonoBehaviour:
     quit: Quit
     ko: K.O.
     draw: Draw
-    defaultSelection: 0
+    defaultSelection: 1
   player1Character: {fileID: 0}
   player2Character: {fileID: 0}
   p1CharStorage: {fileID: 11400000, guid: 5d6dc227d62e62a40af291dbbd4c5276, type: 2}
   p2CharStorage: {fileID: 11400000, guid: 573f29652f969dd429ee24d097b56bc0, type: 2}
   selectedStage:
-    stageName: Alaska
+    stageName: Dungeon#2
     stageResourcePath: 
     musicResourcePath: 
-    screenshot: {fileID: 2800000, guid: 5ce416c5ea3e2b141acdd0d3fd087b6e, type: 3}
-    prefab: {fileID: 3913730778037703168, guid: 3e1d6f261d10db34daf06bbe1ccfa971,
+    screenshot: {fileID: 2800000, guid: a8aa900e357859c49b0ccba9a2d36d37, type: 3}
+    prefab: {fileID: 1452677386150554570, guid: c148c548a386a184180e637d184b5f99,
       type: 3}
-    music: {fileID: 8300000, guid: 78a0035e01d5f0346a8eb0fc22bb4fa2, type: 3}
+    music: {fileID: 8300000, guid: 2067a21e6d6e0a345a9eac9c41ec5d33, type: 3}
     groundFriction: 100
     _groundFriction:
       _serializedValue: 429496729600
     leftBoundary: -38
     _leftBoundary:
-      _serializedValue: -128849018880
+      _serializedValue: -64424509440
     rightBoundary: 38
     _rightBoundary:
-      _serializedValue: 107374182400
+      _serializedValue: 64424509440
     _groundHeight:
       _serializedValue: 0
   stagePrefabStorage: 0
@@ -156,11 +156,19 @@ MonoBehaviour:
           possibleStagesIndexes: 00000000
         showOpponentsInEditor: 1
       showStoryInEditor: 1
-    selectableCharactersInStoryMode: 01000000000000000200000003000000
-    selectableCharactersInVersusMode: 00000000010000000200000003000000
+    selectableCharactersInStoryMode: 010000000000000002000000030000000400000005000000
+    selectableCharactersInVersusMode: 000000000100000002000000030000000400000005000000
     characterStories:
-      _keys: 00000000010000000200000003000000
+      _keys: 000000000100000002000000030000000400000005000000
       _values:
+      - opening: {fileID: 0}
+        ending: {fileID: 0}
+        fightsGroups: []
+        showStoryInEditor: 0
+      - opening: {fileID: 0}
+        ending: {fileID: 0}
+        fightsGroups: []
+        showStoryInEditor: 0
       - opening: {fileID: 0}
         ending: {fileID: 0}
         fightsGroups: []
@@ -219,6 +227,30 @@ MonoBehaviour:
     quit: Quit
     ko: K.O.
     draw: Draw
+    defaultSelection: 1
+  - languageName: Russian
+    start: "\u0421\u0442\u0430\u0440\u0442"
+    options: "\u041E\u043F\u0446\u0438\u0438"
+    credits: "\u0422\u0438\u0442\u0440\u044B"
+    selectYourCharacter: "\u0412\u044B\u0431\u0435\u0440\u0438 \u0421\u0432\u043E\u0435\u0433\u043E
+      \u041F\u0435\u0440\u0441\u043E\u043D\u0430\u0436\u0430"
+    selectYourStage: "\u0412\u044B\u0431\u0435\u0440\u0438 \u0423\u0440\u043E\u0432\u0435\u043D\u044C"
+    round: "\u0423\u0440\u043E\u0432\u0435\u043D\u044C %round%"
+    finalRound: "\u0420\u0435\u0448\u0430\u044E\u0449\u0438\u0439 \u0440\u0430\u0443\u043D\u0434"
+    fight: "\u0411\u043E\u0439!"
+    firstHit: "\u041F\u0435\u0440\u0432\u0430\u044F \u043A\u0440\u043E\u0432\u044C!"
+    combo: "%number% \u043A\u043E\u043C\u0431\u043E!"
+    parry: "\u041E\u0442\u0440\u0430\u0437\u0438\u0442\u044C!"
+    counterHit: "\u0421\u0447\u0435\u0442\u0447\u0438\u043A!"
+    victory: "%character% \u041F\u043E\u0431\u0435\u0434\u0430!"
+    challengeBegins: "\u0421\u0442\u0430\u0440\u0442!"
+    challengeEnds: "\u0423\u0441\u043F\u0435\u0448\u043D\u043E!"
+    timeOver: "\u0412\u0440\u0435\u043C\u044F "
+    perfect: "\u041F\u0440\u0435\u0432\u043E\u0441\u0445\u043E\u0434\u043D\u043E!"
+    rematch: "\u041F\u0435\u0440\u0435\u0438\u0433\u0440\u0430\u0442\u044C"
+    quit: "\u0412\u044B\u0439\u0442\u0438"
+    ko: "\u041D\u0430\u043A\u0430\u0443\u0442!"
+    draw: "\u041D\u0438\u0447\u044C\u044F!"
     defaultSelection: 0
   cameraOptions:
     initialDistance: {x: 0, y: 8, z: -32}
@@ -1072,6 +1104,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 5d6dc227d62e62a40af291dbbd4c5276, type: 2}
   - {fileID: 11400000, guid: fe09108d1a8633f49aeb0d0e76d2b3f8, type: 2}
   - {fileID: 11400000, guid: b587255f636575d49afea77542ecc165, type: 2}
+  - {fileID: 11400000, guid: 464cf52d43854694c94269de16bd0a5b, type: 2}
+  - {fileID: 11400000, guid: 2f87e5e648a68a04a9a7ddfa05ab0b39, type: 2}
   debugOptions:
     startGameImmediately: 0
     skipLoadingScreen: 1
@@ -1160,7 +1194,7 @@ MonoBehaviour:
       attackProbability: 0
     multiCoreSupport: 1
     persistentBehavior: 0
-    difficultyToggle: 0
+    difficultyToggle: 1
     difficultySettings:
     - difficultyLevel: 0
       overrideTimeBetweenDecisions: 1

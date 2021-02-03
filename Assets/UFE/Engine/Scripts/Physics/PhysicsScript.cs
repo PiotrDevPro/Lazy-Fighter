@@ -617,11 +617,11 @@ public class PhysicsScript : MonoBehaviour {
         if (worldTransform.position.y <= UFE.config.selectedStage._groundHeight) {
             return true;
         }
-		/*if (Physics.RaycastAll(worldTransform.position.ToVector() + new Vector3(0, 2f, 0), Vector3.down, 2.02f, groundMask).Length > 0) {
+		//if (Physics.RaycastAll(worldTransform.position.ToVector() + new Vector3(0, 2f, 0), Vector3.down, 2.02f, groundMask).Length > 0) {
 			//if (transform.position.y != 0) transform.Translate(new Vector3(0, -transform.position.y, 0));
-            if (worldTransform.position.y != 0) worldTransform.Translate(new FPVector(0, -worldTransform.position.y, 0));
-            return true;
-		}*/
+         //   if (worldTransform.position.y != 0) worldTransform.Translate(new FPVector(0, -worldTransform.position.y, 0));
+        //    return true;
+		//}
 		return false;
 	}
 }

@@ -4,7 +4,8 @@
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -27149,7 +27150,7 @@ MonoBehaviour:
   _animationSpeed:
     _serializedValue: 5153960960
   wrapMode: 0
-  characterPrefab: {fileID: 100104, guid: 00742ea973dc1914b9364529ba316ee2, type: 2}
+  characterPrefab: {fileID: 100104, guid: 00742ea973dc1914b9364529ba316ee2, type: 3}
   moveName: Houyoku Sen
   description: Phoenix-Wing Fan
   fps: 60
@@ -27162,7 +27163,7 @@ MonoBehaviour:
   invertRotationRight: 0
   autoCorrectRotation: 0
   frameWindowRotation: 0
-  gaugeToggle: 0
+  gaugeToggle: 1
   startDrainingGauge: 0
   inhibitGainWhileDraining: 0
   stopDrainingGauge: 0
@@ -27174,10 +27175,10 @@ MonoBehaviour:
     _serializedValue: 0
   gaugeRequired: 0
   _gaugeRequired:
-    _serializedValue: 429496729600
+    _serializedValue: 390842023936
   gaugeUsage: 200
   _gaugeUsage:
-    _serializedValue: 429496729600
+    _serializedValue: 390842023936
   gaugeGainOnMiss: 0
   _gaugeGainOnMiss:
     _serializedValue: 0
@@ -27239,11 +27240,11 @@ MonoBehaviour:
     onReleaseExecution: 0
     requireButtonPress: 1
     onPressExecution: 1
-    buttonSequence: 01000000000000000100000000000000
+    buttonSequence: 01000000
     buttonExecution: 09000000
     editorToggle: 1
     buttonSequenceToggle: 1
-    buttonExecutionToggle: 0
+    buttonExecutionToggle: 1
   altInputs:
     chargeMove: 0
     _chargeTiming:
@@ -27426,7 +27427,7 @@ MonoBehaviour:
     customStunValues: 0
     overrideHitEffects: 1
     hitEffects:
-      hitParticle: {fileID: 184198, guid: 9c74fc77f6403ad4dba5b180423b14d1, type: 2}
+      hitParticle: {fileID: 184198, guid: 9c74fc77f6403ad4dba5b180423b14d1, type: 3}
       killTime: 0.6
       hitSound: {fileID: 8300000, guid: 5b3bea24171c6534b81c07a298e51803, type: 3}
       spawnPoint: 1
@@ -27446,6 +27447,8 @@ MonoBehaviour:
       shakeDensity: 0.1
       _shakeDensity:
         _serializedValue: 429496736
+      _shakeCameraDensity:
+        _serializedValue: 3435973836
       editorToggle: 1
     overrideHitEffectsBlock: 0
     hitEffectsBlock:
@@ -27468,6 +27471,8 @@ MonoBehaviour:
       shakeCameraOnHit: 1
       shakeDensity: 0.8
       _shakeDensity:
+        _serializedValue: 3435973836
+      _shakeCameraDensity:
         _serializedValue: 3435973836
       editorToggle: 0
     overrideEffectSpawnPoint: 0
@@ -27773,7 +27778,7 @@ MonoBehaviour:
     customStunValues: 0
     overrideHitEffects: 1
     hitEffects:
-      hitParticle: {fileID: 184198, guid: 9c74fc77f6403ad4dba5b180423b14d1, type: 2}
+      hitParticle: {fileID: 184198, guid: 9c74fc77f6403ad4dba5b180423b14d1, type: 3}
       killTime: 0.6
       hitSound: {fileID: 8300000, guid: 5b3bea24171c6534b81c07a298e51803, type: 3}
       spawnPoint: 1
@@ -27793,6 +27798,8 @@ MonoBehaviour:
       shakeDensity: 0.8
       _shakeDensity:
         _serializedValue: 3435973888
+      _shakeCameraDensity:
+        _serializedValue: 3435973836
       editorToggle: 1
     overrideHitEffectsBlock: 0
     hitEffectsBlock:
@@ -27815,6 +27822,8 @@ MonoBehaviour:
       shakeCameraOnHit: 1
       shakeDensity: 0.8
       _shakeDensity:
+        _serializedValue: 3435973836
+      _shakeCameraDensity:
         _serializedValue: 3435973836
       editorToggle: 0
     overrideEffectSpawnPoint: 0
@@ -28140,6 +28149,8 @@ MonoBehaviour:
       shakeDensity: 0.8
       _shakeDensity:
         _serializedValue: 3435973888
+      _shakeCameraDensity:
+        _serializedValue: 3435973836
       editorToggle: 0
     overrideHitEffectsBlock: 0
     hitEffectsBlock:
@@ -28162,6 +28173,8 @@ MonoBehaviour:
       shakeCameraOnHit: 1
       shakeDensity: 0.8
       _shakeDensity:
+        _serializedValue: 3435973836
+      _shakeCameraDensity:
         _serializedValue: 3435973836
       editorToggle: 0
     overrideEffectSpawnPoint: 0
@@ -28606,6 +28619,8 @@ MonoBehaviour:
       shakeDensity: 0.8
       _shakeDensity:
         _serializedValue: 3435973888
+      _shakeCameraDensity:
+        _serializedValue: 3435973836
       editorToggle: 0
     hitAbsorption: 0
     damageAbsorption: 0
