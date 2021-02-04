@@ -21,8 +21,8 @@ MonoBehaviour:
 
     Fight Style: Chinese Kempo'
   selectionAnimation: {fileID: 0}
-  selectionSound: {fileID: 0}
-  deathSound: {fileID: 8300000, guid: 59d283572ffee7c41b2a31e47c3b32be, type: 3}
+  selectionSound: {fileID: 8300000, guid: a8a38059805de52438761a17c94a0a9f, type: 3}
+  deathSound: {fileID: 8300000, guid: 8cc4d8fd667ac1c41980e829fa60af4b, type: 3}
   height: 5.7
   age: 1
   bloodType: Unknown

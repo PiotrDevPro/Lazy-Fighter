@@ -19,8 +19,8 @@ MonoBehaviour:
   gender: 1
   characterDescription: 
   selectionAnimation: {fileID: 0}
-  selectionSound: {fileID: 0}
-  deathSound: {fileID: 0}
+  selectionSound: {fileID: 8300000, guid: da44e212acb0d4f3e9fcc26aa2f813fd, type: 3}
+  deathSound: {fileID: 8300000, guid: 43df0be6f002b4a268da4aeaa3f0a571, type: 3}
   height: 165
   age: 48
   bloodType: Unknown

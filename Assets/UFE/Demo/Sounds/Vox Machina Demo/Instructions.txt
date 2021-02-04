@@ -1,0 +1,30 @@
+Attatch the SentenceAssembler script to an object with an audio source. Enter the number of sentences you would like in the 
+Custom Sentence Lists field, and then fill those arrays with the audio clips you would like it to play. In order
+to play a specific sentence, call the GetSentence(#) function, where "#" is the index of the sentence in 
+CustomSentenceLists[]. 
+EXAMPLE: To play the first sentence in CustomSentenceLists[] you would use GetSentence(0).
+
+-------
+Pitch
+-------
+The pitch options will change the pitch of each individual word in a sentence depending on the values in the 
+Pitch Bend Range field. 
+None: This will leave the pitch unaffected.
+
+Random Pitch: This will coose a random value inside of the pitch bend range for each word in a sentence.
+
+Ascending: The first word of the sentence will start at the lowest value of pitch bend range and step up on 
+	each successive word.
+
+Descending: The first word of the sentence will start at the highest value of pitch bend range and step down 
+	on each successive word.
+
+---------
+Question
+---------
+When Question Ask is toggled on, the last word in a sentence will be pitched up, imitating a questioning tone.
+The inflection option indicates how much the pitch is altered, a larger number means a greater change.
+
+
+If you have any questions comments or concerns, please contact me at absounddesigns@gmail.com
+Thank You!

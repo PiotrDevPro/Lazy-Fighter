@@ -15710,10 +15710,10 @@ MonoBehaviour:
     _serializedValue: 0
   gaugeRequired: 0
   _gaugeRequired:
-    _serializedValue: 261993005056
+    _serializedValue: 128849018880
   gaugeUsage: 400
   _gaugeUsage:
-    _serializedValue: 261993005056
+    _serializedValue: 128849018880
   gaugeGainOnMiss: 0
   _gaugeGainOnMiss:
     _serializedValue: 0
@@ -15728,7 +15728,7 @@ MonoBehaviour:
     _serializedValue: 8589934592
   opGaugeGainOnParry: 50
   _opGaugeGainOnParry:
-    _serializedValue: 42949672960
+    _serializedValue: 6871947776
   opGaugeGainOnHit: 10
   _opGaugeGainOnHit:
     _serializedValue: 12884901888
@@ -15775,8 +15775,8 @@ MonoBehaviour:
     onReleaseExecution: 0
     requireButtonPress: 1
     onPressExecution: 1
-    buttonSequence: 00000000
-    buttonExecution: 05000000
+    buttonSequence: 01000000
+    buttonExecution: 08000000
     editorToggle: 1
     buttonSequenceToggle: 1
     buttonExecutionToggle: 1
@@ -15857,7 +15857,29 @@ MonoBehaviour:
         _serializedValue: 0
   slowMoEffects: []
   bodyPartVisibilityChanges: []
-  opponentOverride: []
+  opponentOverride:
+  - position: {x: 0, y: 0, z: 0}
+    _position:
+      x:
+        _serializedValue: 0
+      y:
+        _serializedValue: 0
+      z:
+        _serializedValue: 0
+    castingFrame: 0
+    blendSpeed: 45
+    stun: 0
+    stunTime: 0
+    _stunTime:
+      _serializedValue: 0
+    overrideHitAnimations: 0
+    resetAppliedForces: 0
+    standUpOptions: 0
+    characterSpecific: 0
+    move: {fileID: 0}
+    characterSpecificMoves: []
+    animationPreview: 0
+    movesToggle: 0
   soundEffects: []
   inGameAlert: []
   stanceChanges: []
@@ -15869,12 +15891,12 @@ MonoBehaviour:
     blendSpeed: 100
     gameObjectPosition: {x: 0, y: 0, z: 0}
     position: {x: 37.19, y: 9.71, z: -34.36}
-    rotation: {x: 6.9999976, y: 315.03, z: 0}
+    rotation: {x: 7, y: 315, z: 0}
     castingFrame: 5
     duration: 0.8
     _duration:
-      _serializedValue: 3435973888
-    fieldOfView: 6
+      _serializedValue: 5153960960
+    fieldOfView: 10
     camSpeed: 5
     freezePhysics: 1
     myAnimationSpeed: 30
@@ -15989,10 +16011,10 @@ MonoBehaviour:
     damageType: 1
     damageOnHit: 20
     _damageOnHit:
-      _serializedValue: 85899345920
+      _serializedValue: 42949672960
     damageOnBlock: 10
     _damageOnBlock:
-      _serializedValue: 42949672960
+      _serializedValue: 21474836480
     doesntKill: 0
     hitType: 3
     resetPreviousHorizontalPush: 1
@@ -16283,7 +16305,7 @@ MonoBehaviour:
     _damageOnBlock:
       _serializedValue: 42949672960
     doesntKill: 0
-    hitType: 3
+    hitType: 2
     resetPreviousHorizontalPush: 1
     resetPreviousVerticalPush: 1
     applyDifferentAirForce: 0
@@ -16291,7 +16313,7 @@ MonoBehaviour:
     pushForce: {x: 20, y: 40}
     _pushForce:
       x:
-        _serializedValue: 85899345920
+        _serializedValue: 279172874240
       y:
         _serializedValue: 171798691840
       z:
@@ -16321,33 +16343,33 @@ MonoBehaviour:
         _serializedValue: 0
       z:
         _serializedValue: 0
-    cornerPush: 0
-    groundBounce: 0
-    overrideForcesOnGroundBounce: 0
-    resetGroundBounceHorizontalPush: 0
-    resetGroundBounceVerticalPush: 0
+    cornerPush: 1
+    groundBounce: 1
+    overrideForcesOnGroundBounce: 1
+    resetGroundBounceHorizontalPush: 1
+    resetGroundBounceVerticalPush: 1
     groundBouncePushForce: {x: 0, y: 0}
     _groundBouncePushForce:
       x:
         _serializedValue: 0
       y:
-        _serializedValue: 0
+        _serializedValue: 64424509440
       z:
         _serializedValue: 0
-    wallBounce: 0
-    knockOutOnWallBounce: 0
+    wallBounce: 1
+    knockOutOnWallBounce: 1
     overrideForcesOnWallBounce: 1
     resetWallBounceHorizontalPush: 1
     resetWallBounceVerticalPush: 1
     wallBouncePushForce: {x: 5, y: 30}
     _wallBouncePushForce:
       x:
-        _serializedValue: 21474836480
+        _serializedValue: 150323855360
       y:
         _serializedValue: 128849018880
       z:
         _serializedValue: 0
-    bounceOnCameraEdge: 0
+    bounceOnCameraEdge: 1
     overrideCameraSpeed: 0
     newMovementSpeed: 0
     _newMovementSpeed:
@@ -16390,16 +16412,16 @@ MonoBehaviour:
           _serializedValue: 0
     damageOptionsToggle: 0
     hitStunOptionsToggle: 0
-    forceOptionsToggle: 0
-    opponentForceToggle: 0
-    selfForceToggle: 0
-    stageReactionsToggle: 0
+    forceOptionsToggle: 1
+    opponentForceToggle: 1
+    selfForceToggle: 1
+    stageReactionsToggle: 1
     overrideEventsToggle: 0
     hitConditionsToggle: 0
     pullInToggle: 0
     hurtBoxesToggle: 0
     wallBounceToggle: 1
-    groundBounceToggle: 0
+    groundBounceToggle: 1
     hurtBoxes:
     - bodyPart: 9
       shape: 1

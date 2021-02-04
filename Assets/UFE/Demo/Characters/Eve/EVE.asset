@@ -19,11 +19,11 @@ MonoBehaviour:
   gender: 2
   characterDescription: 
   selectionAnimation: {fileID: 0}
-  selectionSound: {fileID: 0}
+  selectionSound: {fileID: 8300000, guid: 5488786b19288f2449ee79f430633eaa, type: 3}
   deathSound: {fileID: 8300000, guid: 59d283572ffee7c41b2a31e47c3b32be, type: 3}
   height: 175
   age: 29
-  bloodType: O+
+  bloodType: Unknown
   lifePoints: 1000
   maxGaugePoints: 100
   characterPrefabStorage: 0

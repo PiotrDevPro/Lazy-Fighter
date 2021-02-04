@@ -253,6 +253,7 @@
     <Compile Include="Assets\Plugin\MobileColorGrading\Scripts\LB_LightingTrigger_Direct.cs" />
     <Compile Include="Assets\Plugin\MobileColorGrading\Scripts\LB_LightingTrigger_Profile.cs" />
     <Compile Include="Assets\Plugin\MobileColorGrading\Scripts\MobileColorGrading.cs" />
+    <Compile Include="Assets\UFE\Demo\Sounds\Vox Machina Demo\SentenceAssembler.cs" />
     <Compile Include="Assets\UFE\Engine\Scripts\AI\Fuzzy\Runtime\AIInfo.cs" />
     <Compile Include="Assets\UFE\Engine\Scripts\AI\Fuzzy\Runtime\AIRulesGenerator.cs" />
     <Compile Include="Assets\UFE\Engine\Scripts\AI\Fuzzy\Runtime\InferenceSystemThread.cs" />
@@ -564,6 +565,7 @@
     <None Include="Assets\Plugin\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
     <None Include="Assets\Plugin\Effects\Projectors\Shaders\Projector Multiply.shader" />
     <None Include="Assets\Plugin\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+    <None Include="Assets\UFE\Demo\Sounds\Vox Machina Demo\Instructions.txt" />
     <None Include="Assets\Plugin\Effects\ImageEffects\Shaders\EdgeDetectNormals.shader" />
     <None Include="Assets\Plugin\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
     <None Include="Assets\Plugin\Low Poly Rocks Pack\Demo\Asset _Scenes\Info.txt" />

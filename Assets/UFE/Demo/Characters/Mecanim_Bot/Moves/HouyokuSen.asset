@@ -27181,22 +27181,22 @@ MonoBehaviour:
     _serializedValue: 390842023936
   gaugeGainOnMiss: 0
   _gaugeGainOnMiss:
-    _serializedValue: 0
+    _serializedValue: 4294967296
   gaugeGainOnHit: 10
   _gaugeGainOnHit:
-    _serializedValue: 0
+    _serializedValue: 8589934592
   gaugeGainOnBlock: 0
   _gaugeGainOnBlock:
-    _serializedValue: 0
+    _serializedValue: 8589934592
   opGaugeGainOnBlock: 0
   _opGaugeGainOnBlock:
-    _serializedValue: 0
+    _serializedValue: 4294967296
   opGaugeGainOnParry: 0
   _opGaugeGainOnParry:
-    _serializedValue: 0
+    _serializedValue: 8589934592
   opGaugeGainOnHit: 0
   _opGaugeGainOnHit:
-    _serializedValue: 0
+    _serializedValue: 8589934592
   DCMove: {fileID: 0}
   DCStance: 0
   disableHeadLook: 1

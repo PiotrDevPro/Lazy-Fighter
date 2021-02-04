@@ -129,9 +129,9 @@ MonoBehaviour:
   - MoveSets\ThaZombie
   moves: []
   aiInstructionsSet:
+  - aiInfo: {fileID: 11400000, guid: 381a98fe3348ea640801d8072511a960, type: 2}
+    behavior: 4
   - aiInfo: {fileID: 11400000, guid: 388fce0a954ca8544a84bdd1c4b66fba, type: 2}
     behavior: 3
   - aiInfo: {fileID: 11400000, guid: 68a028838c8be5947880fd975acc4ca7, type: 2}
     behavior: 2
-  - aiInfo: {fileID: 11400000, guid: 381a98fe3348ea640801d8072511a960, type: 2}
-    behavior: 4

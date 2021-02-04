@@ -19,8 +19,8 @@ MonoBehaviour:
   gender: 1
   characterDescription: 'Animation Type: Mecanim'
   selectionAnimation: {fileID: 0}
-  selectionSound: {fileID: 0}
-  deathSound: {fileID: 0}
+  selectionSound: {fileID: 8300000, guid: 07b51a4757b894435b642563c6555614, type: 3}
+  deathSound: {fileID: 8300000, guid: 7096f857ec89e4d80b4bbae5f14a8f20, type: 3}
   height: 168
   age: 25
   bloodType: Unknown

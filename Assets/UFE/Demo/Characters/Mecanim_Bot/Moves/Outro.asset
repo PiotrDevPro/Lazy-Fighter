@@ -4,7 +4,8 @@
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -2489,7 +2490,7 @@ MonoBehaviour:
   _animationSpeed:
     _serializedValue: 4294967296
   wrapMode: 8
-  characterPrefab: {fileID: 100104, guid: 00742ea973dc1914b9364529ba316ee2, type: 2}
+  characterPrefab: {fileID: 100104, guid: 00742ea973dc1914b9364529ba316ee2, type: 3}
   moveName: Outro
   description: Outro
   fps: 60
@@ -2641,7 +2642,7 @@ MonoBehaviour:
     camAnimationSpeed: 1
     blendSpeed: 100
     gameObjectPosition: {x: 0, y: 0, z: 0}
-    position: {x: 30.081038, y: 9.7067375, z: -17.970049}
+    position: {x: 30.081038, y: 9.7067375, z: -25}
     rotation: {x: 7.000001, y: 300.73, z: 0}
     castingFrame: 12
     duration: 999
@@ -2777,6 +2778,8 @@ MonoBehaviour:
       shakeCameraOnHit: 1
       shakeDensity: 0.8
       _shakeDensity:
+        _serializedValue: 3435973836
+      _shakeCameraDensity:
         _serializedValue: 3435973836
       editorToggle: 0
     hitAbsorption: 0

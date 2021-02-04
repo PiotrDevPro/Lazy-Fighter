@@ -2503,7 +2503,7 @@ MonoBehaviour:
   invertRotationRight: 0
   autoCorrectRotation: 0
   frameWindowRotation: 0
-  gaugeToggle: 1
+  gaugeToggle: 0
   startDrainingGauge: 0
   inhibitGainWhileDraining: 0
   stopDrainingGauge: 0
@@ -2781,7 +2781,7 @@ MonoBehaviour:
     damageType: 1
     damageOnHit: 40
     _damageOnHit:
-      _serializedValue: 171798691840
+      _serializedValue: 343597383680
     damageOnBlock: 0
     _damageOnBlock:
       _serializedValue: 0

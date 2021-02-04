@@ -4165,7 +4165,7 @@ MonoBehaviour:
     _serializedValue: 0
   gaugeGainOnMiss: 0
   _gaugeGainOnMiss:
-    _serializedValue: 0
+    _serializedValue: 208305913856
   gaugeGainOnHit: 60
   _gaugeGainOnHit:
     _serializedValue: 4294967296

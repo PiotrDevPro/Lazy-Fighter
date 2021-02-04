@@ -21,8 +21,8 @@ MonoBehaviour:
 
     Fight Style: UMvC3'
   selectionAnimation: {fileID: 0}
-  selectionSound: {fileID: 0}
-  deathSound: {fileID: 0}
+  selectionSound: {fileID: 8300000, guid: a8a38059805de52438761a17c94a0a9f, type: 3}
+  deathSound: {fileID: 8300000, guid: 8cc4d8fd667ac1c41980e829fa60af4b, type: 3}
   height: 182
   age: 1
   bloodType: Unknown

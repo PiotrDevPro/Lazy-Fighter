@@ -4461,10 +4461,10 @@ MonoBehaviour:
   speedKeyFrameToggle: 0
   fixedSpeed: 1
   animSpeedKeyFrame: []
-  totalFrames: 32
+  totalFrames: 33
   startUpFrames: 4
   activeFrames: 26
-  recoveryFrames: 2
+  recoveryFrames: 3
   applyRootMotion: 0
   forceGrounded: 0
   rootMotionNode: 0

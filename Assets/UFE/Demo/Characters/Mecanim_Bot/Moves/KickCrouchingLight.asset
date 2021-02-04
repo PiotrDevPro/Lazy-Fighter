@@ -1428,10 +1428,10 @@ MonoBehaviour:
     _serializedValue: 0
   gaugeGainOnHit: 20
   _gaugeGainOnHit:
-    _serializedValue: 4294967296
+    _serializedValue: 8589934592
   gaugeGainOnBlock: 22
   _gaugeGainOnBlock:
-    _serializedValue: 4294967296
+    _serializedValue: 8589934592
   opGaugeGainOnBlock: 0
   _opGaugeGainOnBlock:
     _serializedValue: 0
@@ -1450,7 +1450,7 @@ MonoBehaviour:
   totalFrames: 10
   startUpFrames: 5
   activeFrames: 4
-  recoveryFrames: 1
+  recoveryFrames: 0
   applyRootMotion: 0
   forceGrounded: 0
   rootMotionNode: 0
