@@ -4,7 +4,8 @@
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -14959,7 +14960,7 @@ MonoBehaviour:
     _serializedValue: 4294967296
   wrapMode: 0
   characterPrefab: {fileID: 1272366937168992, guid: 01b0a963f13679544a22d6e63d5256c6,
-    type: 2}
+    type: 3}
   moveName: Throw Confirm
   description: Throw Confirm
   fps: 60
@@ -14993,10 +14994,10 @@ MonoBehaviour:
     _serializedValue: 0
   gaugeGainOnHit: 60
   _gaugeGainOnHit:
-    _serializedValue: 257698037760
+    _serializedValue: 42949672960
   gaugeGainOnBlock: 66
   _gaugeGainOnBlock:
-    _serializedValue: 283467841536
+    _serializedValue: 42949672960
   opGaugeGainOnBlock: 0
   _opGaugeGainOnBlock:
     _serializedValue: 0
@@ -15005,7 +15006,7 @@ MonoBehaviour:
     _serializedValue: 0
   opGaugeGainOnHit: 40
   _opGaugeGainOnHit:
-    _serializedValue: 171798691840
+    _serializedValue: 85899345920
   DCMove: {fileID: 0}
   DCStance: 0
   disableHeadLook: 1

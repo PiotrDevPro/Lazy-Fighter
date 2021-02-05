@@ -3807,7 +3807,7 @@ MonoBehaviour:
   invertRotationRight: 0
   autoCorrectRotation: 0
   frameWindowRotation: 0
-  gaugeToggle: 0
+  gaugeToggle: 1
   startDrainingGauge: 0
   inhibitGainWhileDraining: 0
   stopDrainingGauge: 0
@@ -3828,7 +3828,7 @@ MonoBehaviour:
     _serializedValue: 0
   gaugeGainOnHit: 60
   _gaugeGainOnHit:
-    _serializedValue: 257698037760
+    _serializedValue: 64424509440
   gaugeGainOnBlock: 0
   _gaugeGainOnBlock:
     _serializedValue: 0

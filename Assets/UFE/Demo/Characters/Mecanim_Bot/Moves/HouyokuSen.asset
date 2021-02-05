@@ -27231,11 +27231,11 @@ MonoBehaviour:
   buttonSequence: 01000000000000000100000000000000
   buttonExecution: 09000000
   defaultInputs:
-    chargeMove: 1
+    chargeMove: 0
     _chargeTiming:
       _serializedValue: 2147483648
-    allowInputLeniency: 1
-    allowNegativeEdge: 1
+    allowInputLeniency: 0
+    allowNegativeEdge: 0
     leniencyBuffer: 8
     onReleaseExecution: 0
     requireButtonPress: 1
@@ -27389,7 +27389,7 @@ MonoBehaviour:
     duration: 1
     _duration:
       _serializedValue: 4294967296
-    fieldOfView: 5
+    fieldOfView: 8
     camSpeed: 4.5
     freezePhysics: 1
     myAnimationSpeed: 95
@@ -27448,7 +27448,7 @@ MonoBehaviour:
       _shakeDensity:
         _serializedValue: 429496736
       _shakeCameraDensity:
-        _serializedValue: 3435973836
+        _serializedValue: 3435973888
       editorToggle: 1
     overrideHitEffectsBlock: 0
     hitEffectsBlock:
@@ -27799,7 +27799,7 @@ MonoBehaviour:
       _shakeDensity:
         _serializedValue: 3435973888
       _shakeCameraDensity:
-        _serializedValue: 3435973836
+        _serializedValue: 3435973888
       editorToggle: 1
     overrideHitEffectsBlock: 0
     hitEffectsBlock:
@@ -28206,7 +28206,7 @@ MonoBehaviour:
     damageType: 1
     damageOnHit: 80
     _damageOnHit:
-      _serializedValue: 343597383680
+      _serializedValue: 429496729600
     damageOnBlock: 10
     _damageOnBlock:
       _serializedValue: 42949672960

@@ -2543,7 +2543,7 @@ MonoBehaviour:
   speedKeyFrameToggle: 0
   fixedSpeed: 1
   animSpeedKeyFrame: []
-  totalFrames: 17
+  totalFrames: 18
   startUpFrames: 5
   activeFrames: 5
   recoveryFrames: 5
@@ -2665,7 +2665,7 @@ MonoBehaviour:
     blendSpeed: 100
     gameObjectPosition: {x: 0, y: 0, z: 0}
     position: {x: 30.08104, y: 9.706738, z: -17.97005}
-    rotation: {x: 7, y: 301.84003, z: 0}
+    rotation: {x: 7, y: 315.84, z: 0}
     castingFrame: 3
     duration: 0.6
     _duration:

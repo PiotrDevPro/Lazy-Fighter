@@ -4,7 +4,8 @@
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -7286,7 +7287,7 @@ MonoBehaviour:
   invertRotationRight: 0
   autoCorrectRotation: 0
   frameWindowRotation: 0
-  gaugeToggle: 0
+  gaugeToggle: 1
   startDrainingGauge: 0
   inhibitGainWhileDraining: 0
   stopDrainingGauge: 0
@@ -7550,8 +7551,8 @@ MonoBehaviour:
     nonAffectedBodyParts: 
   projectiles:
   - castingFrame: 10
-    projectilePrefab: {fileID: 100000, guid: e0629515d33ba6e4e9b138227446813f, type: 2}
-    impactPrefab: {fileID: 100008, guid: 270642c674ce99b44ae5263686a8642c, type: 2}
+    projectilePrefab: {fileID: 100000, guid: e0629515d33ba6e4e9b138227446813f, type: 3}
+    impactPrefab: {fileID: 100008, guid: 270642c674ce99b44ae5263686a8642c, type: 3}
     bodyPart: 8
     castingOffSet: {x: 0, y: 0, z: 0}
     _castingOffSet:

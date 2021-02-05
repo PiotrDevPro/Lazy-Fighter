@@ -2503,7 +2503,7 @@ MonoBehaviour:
   invertRotationRight: 0
   autoCorrectRotation: 0
   frameWindowRotation: 0
-  gaugeToggle: 0
+  gaugeToggle: 1
   startDrainingGauge: 0
   inhibitGainWhileDraining: 0
   stopDrainingGauge: 0
@@ -2524,19 +2524,19 @@ MonoBehaviour:
     _serializedValue: 0
   gaugeGainOnHit: 40
   _gaugeGainOnHit:
-    _serializedValue: 4294967296
+    _serializedValue: 17179869184
   gaugeGainOnBlock: 44
   _gaugeGainOnBlock:
-    _serializedValue: 4294967296
+    _serializedValue: 17179869184
   opGaugeGainOnBlock: 0
   _opGaugeGainOnBlock:
     _serializedValue: 0
   opGaugeGainOnParry: 0
   _opGaugeGainOnParry:
-    _serializedValue: 0
+    _serializedValue: 8589934592
   opGaugeGainOnHit: 0
   _opGaugeGainOnHit:
-    _serializedValue: 0
+    _serializedValue: 8589934592
   DCMove: {fileID: 0}
   DCStance: 0
   disableHeadLook: 1
